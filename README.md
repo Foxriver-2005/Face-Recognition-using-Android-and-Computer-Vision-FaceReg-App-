@@ -6,7 +6,7 @@
 5 Now run the "train_v2.py" to train the model, the training may take long depending on the number of Folders inside the "Faces" folder, the more the images to train, the longer it take.
 6. After the training is complete, now run the "detect.py" infront of people of people you train the model with for the to be recognized, anyone who wasn't in training should be recognized as uknown.
 
-# CONVERSION OF Facenet_keras to MobileFaceNet.tflite #
+# Conversion of Facenet_keras to MobileFaceNet.tflite #
 1. This method is optional because i have already created the "MobileFaceNet.tflite" and placed inside the Folder "/app/src/main/assets/".
 2. This option also wouldn't work if you don't have enough computing resources like GPU, best run if you have GPU in your local environment.
 3. Follow the link below to download the "Faces ms1m-refine-v2_112x112 TFRecord": 
