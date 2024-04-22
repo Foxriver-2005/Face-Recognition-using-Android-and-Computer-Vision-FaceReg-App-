@@ -1,0 +1,7 @@
+<!-- res/drawable/ic_background.xml -->
+<shape xmlns:android="http://schemas.android.com/apk/res/android" android:shape="oval">
+    <gradient
+        android:startColor="@color/iconBackgroundStart"
+        android:endColor="@color/iconBackgroundEnd"
+        android:type="radial"/>
+</shape>

@@ -1,0 +1,11 @@
+<!-- res/drawable/ic_letter_s.xml -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="48dp"
+    android:height="48dp"
+    android:viewportWidth="24"
+    android:viewportHeight="24">
+
+    <path
+        android:pathData="M8,5.5C8,5.5 10,5.5 11,7.5C12,9.5 10,11.5 8,11.5C6,11.5 4,10.5 4,8.5"
+        android:fillColor="@color/letterColor" />
+</vector>
