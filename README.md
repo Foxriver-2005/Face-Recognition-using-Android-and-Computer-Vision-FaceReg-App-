@@ -1,4 +1,4 @@
-#To the test the performance of the Facenet_keras.h5#
+# To the test the performance of the Facenet_keras.h5 #
 Follow this link to download the facenet_keras_weights.h5 
 *https://drive.google.com/file/d/1Zuxu-QVmuPxpnVAcsxt8g8LIz1TnxyC3/view?usp=sharing*
 After downloading place the file inside the folder "OpenCV"
@@ -6,14 +6,14 @@ The create the other folder inside the "Faces" folder for example Felix and past
 Now run the "train_v2.py" to train the model, the training may take long depending on the number of Folders inside the "Faces" folder, the more the images to train, the longer it take.
 After the training is complete, now run the "detect.py" infront of people of people you train the model with for the to be recognized, anyone who wasn't in training should be recognized as uknown.
 
-#CONVERSION OF Facenet_keras to MobileFaceNet.tflite#
+# CONVERSION OF Facenet_keras to MobileFaceNet.tflite #
 This method is option because i have already created the "MobileFaceNet.tflite" and placed inside the Folder "/app/src/main/assets/".
 This option also wouldn't work if you don't have enough computing resources like GPU, best run if you have GPU in your local environment.
 Follow the link below to download the "Faces ms1m-refine-v2_112x112 TFRecord": 
 *https://www.kaggle.com/code/jasonhcwong/mobilefacenet*
 After downloading, extract and create a folder named "Faces ms1m-refine-v2_112x112 TFRecord" and paste all the file in that folder, before running the "toTFLite.ipynb"
 
-##To run the android app (.apk) ##
+# To run the android app (.apk) #
 Download the file "FaceReg.apk" and install in your android phone,
 Then run the app,
 Register using your email, and set your password (recommende to use real email just incase you forgot your password that way you can reset your password.
