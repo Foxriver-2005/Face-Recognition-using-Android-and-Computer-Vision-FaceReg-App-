@@ -1,4 +1,4 @@
-# To the test the performance of the Facenet_keras.h5 #
+# Testing the performance of the Facenet_keras.h5 #
 1. Follow this link to download the facenet_keras_weights.h5 
 2. *https://drive.google.com/file/d/1Zuxu-QVmuPxpnVAcsxt8g8LIz1TnxyC3/view?usp=sharing*
 3. After downloading place the file inside the folder "OpenCV"
